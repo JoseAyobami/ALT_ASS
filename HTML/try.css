@@ -1,0 +1,64 @@
+:root {
+    --background: gray;
+    --color-1: #dddd;
+}
+
+html, body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+*.main-m {
+    max-width: 1250px;
+    margin: 0;
+    padding: 10px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    
+    
+}
+.gridy {
+    display: grid;
+    grid-template-rows: repeat(4, 2fr);
+    row-gap: 20px;
+}
+
+.grid-celly {
+    height: 200px;
+    background-color: var(--background);
+}
+
+
+
+.grid-cell {
+    height: 200px;
+    background-color: var(--background);
+   
+} 
+
+.flex {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    /*flex-flow: nowrap;*/
+}
+
+
+
+.grid-cell, .flex-itemy {
+    height: 200px;
+    background-color: var(--background);
+   
+} 
+
+.flexy-item {
+    display: flex;
+}
+
+
